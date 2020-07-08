@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-*Data sources used to make the plot above are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga.*
+*Data sources used to make the plots are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga.*
 
 
 The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **July 6, 2020**.  
@@ -56,7 +56,7 @@ plot(y2, selector = TRUE)
 ```  
 
 
-## Time Varying R in Naga City, Camarines Sur as of **July 6, 2020**
+## Time Varying R in Bicol Region as of **July 6, 2020**
 
 The following figure shows the output plots: **Epidemic Curve, Estimated R, and Explored Serial Interval Distribution **
 
