@@ -1,7 +1,7 @@
 ---
 title: "Visualization of COVID19 Data in Bicol"
 author: "Ateneo REGIS Hub"
-date: "July 9, 2020"
+date: "July 10, 2020"
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 *Data sources used to make the plots are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga.*
 
 
-The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **July 8, 2020**.  
+The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **July 9, 2020**.  
 
 **Use your mouse to zoom in to particular cases, see details and look into connections.** 
 
@@ -36,8 +36,11 @@ library(googlesheets4)
 bicol3 <- (read_sheet("https://docs.google.com/spreadsheets/d/1wBC115kZxPbphHgf39so5r5XR2pibbWDV-soXxGiS64/edit#gid=0")
 )
 
-linelist <- cbind(bicol3[, 1:5], bicol3[, 10:12], bicol3[, 17])
+```
 
+```{r, comment= FALSE, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
+
+linelist <- cbind(bicol3[, 1:5], bicol3[, 10:12], bicol3[, 17])
 
 contacts <- bicol3[, 15:21]
 
@@ -52,7 +55,7 @@ plot(y2, selector = TRUE)
 ``` 
 
 
-## Time Varying R in Bicol Region as of **July 8, 2020**
+## Time Varying R in Bicol Region as of **July 9, 2020**
 
 The following figure shows the output plots: **Epidemic Curve, Estimated R, and Explored Serial Interval Distribution **
 
@@ -88,9 +91,15 @@ plot(res_parametric_si, legend = FALSE)
 ```  
 
 
-References:
+###References:
 
-R Core Team (2017). R: A language and environment for statistical computing. R  Foundation for Statistical Computing, Vienna, Austria. URhttps://www.R-project.org/
+**R Core Team (2017). R: A language and environment for statistical computing. R  Foundation for Statistical Computing, Vienna, Austria. URhttps://www.R-project.org/**
+
+**packages used: dplyr, data.table, lubridate, reshape2, ggplot2, EpiEstim, epicontacts, googlesheet4, readxl**
+
+**Help us improve our viz. Send a pull request at [link](https://github.com/shanebimeda/regishub)**  
+
+
 
 H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016    
    
