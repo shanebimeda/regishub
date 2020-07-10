@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **July 9, 2020**.  
 
-**Use your mouse to zoom in to particular cases, see details and look into connections.** 
+**Use your mouse to zoom in to particular cases, see details, and look into connections.** 
 
 
 ```{r, comment= FALSE, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
