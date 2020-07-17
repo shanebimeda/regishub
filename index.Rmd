@@ -1,7 +1,7 @@
 ---
 title: "Visualization of COVID19 Data in Bicol"
 author: "Ateneo REGIS Hub"
-date: "July 16, 2020"
+date: "July 17, 2020"
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 *Data sources used to make the plots are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga.*
 
 
-The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **July 15, 2020**.  
+The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **July 16, 2020**.  
 
 **Use your mouse to zoom in to particular cases, see details, and look into connections.** 
 
@@ -55,7 +55,7 @@ plot(y2, selector = TRUE)
 ``` 
 
 
-## Time Varying R in Bicol Region as of **July 15, 2020**
+## Time Varying R in Bicol Region as of **July 16, 2020**
 
 The following figure shows the output plots: **Epidemic Curve, Estimated R, and Explored Serial Interval Distribution **
 
@@ -95,7 +95,7 @@ plot(res_parametric_si, legend = FALSE)
 
 **R Core Team (2017). R: A language and environment for statistical computing. R  Foundation for Statistical Computing, Vienna, Austria. URhttps://www.R-project.org/**
 
-**packages used: dplyr, data.table, lubridate, reshape2, ggplot2, EpiEstim, epicontacts, googlesheetS4, readxl**
+**packages used: dplyr, data.table, lubridate, reshape2, ggplot2, EpiEstim, epicontacts, googlesheets4, readxl**
 
 **Help us improve our viz. Send a pull request at [link](https://github.com/shanebimeda/regishub)**  
 
