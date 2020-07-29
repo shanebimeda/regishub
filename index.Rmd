@@ -40,7 +40,7 @@ bicol3 <- (read_sheet("https://docs.google.com/spreadsheets/d/1wBC115kZxPbphHgf3
 
 ```{r, comment= FALSE, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
 
-linelist <- cbind(bicol3[, 1:5], bicol3[, 10:12], bicol3[, 17])
+linelist <- cbind(bicol3[, 1:5], bicol3[, 10:12], bicol3[, 17], bicol3[, 19:23])
 
 
 contacts <- bicol3[, 15:21]
