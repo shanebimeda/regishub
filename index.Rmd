@@ -1,7 +1,7 @@
 ---
 title: "Visualization of COVID19 Data in Bicol"
 author: "Ateneo REGIS Hub"
-date: "August 5, 2020"
+date: "August 5, 2020"  
 output: html_document
 ---
 
