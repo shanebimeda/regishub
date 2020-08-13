@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-*Data sources used to make the plots are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga, official statements of the Office of the Mayor of the concerned LGUs.*
+*Data sources used to make the plots are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga,and official statements of the Office of the Mayor of the concerned LGUs.*
 
 
 The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **August 12, 2020**.  
