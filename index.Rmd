@@ -102,7 +102,7 @@ r <- as.data.table(res_parametric_si$R)
 
 
 
-##Computed R  (Mean R) Value for the Province of Bicol for **August 31, 2020 or Day `r nrow(r)`** 
+##Computed R  (Mean R) Value for the Province of Bicol for **August 31, 2020 or Day `r r[151, 2]`** 
 ###**(Please ignore the warning message)**
 
 
