@@ -102,7 +102,7 @@ r <- as.data.table(res_parametric_si$R)
 
 
 
-##Computed R  (Mean R) Value for the Province of Bicol for **September 01 or Day `r r[nrow(r), 2]`** 
+##Computed R  (Mean R) Value for Bicol Region on **September 01 or Day `r r[nrow(r), 2]`** 
 ###**(Please ignore the warning message)**
 
 
