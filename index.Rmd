@@ -1,7 +1,7 @@
 ---
 title: "Visualization of COVID19 Data in Bicol"
 author: "Ateneo REGIS Hub"
-date: "October 14, 2020"  
+date: "October 15, 2020"  
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 *Data sources used to make the plots are official press releases of DOH CHD - Bicol and official releases from the COVID Tracker of the Local Government of Naga,and official statements of the Office of the Mayor of the concerned LGUs.*
 
 
-The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **October 13, 2020**.  
+The following interactive plot shows the **Covid19-positive individuals and their contacts** in  **Bicol Region** as of **October 14, 2020**.  
 
 **Use your mouse to zoom in to particular cases, see details, and look into connections.** 
 
@@ -56,7 +56,7 @@ plot(y2, selector = TRUE)
 ``` 
 
 
-## Time Varying R in Bicol Region as of **October 13, 2020**
+## Time Varying R in Bicol Region as of **October 14, 2020**
 
 The following figure shows the output plots: **Epidemic Curve, Estimated R, and Explored Serial Interval Distribution **
 
@@ -102,7 +102,7 @@ r <- as.data.table(res_parametric_si$R)
 
 
 
-##Computed R  (Mean R) Value for Bicol Region on **October 13, 2020 or Day `r r[nrow(r), 2]`** 
+##Computed R  (Mean R) Value for Bicol Region on **October 14, 2020 or Day `r r[nrow(r), 2]`** 
 ###**(Please ignore the warning message)**
 
 
